@@ -16,7 +16,12 @@ function flowplayer_get_html ($name) {
 <a href="$name" style="display:block;width:600px;height:330px" class="flowplayer"></a>
 <!-- this will install flowplayer inside previous A- tag. -->
 <script>
-flowplayer("a.flowplayer", "/templates/flowplayer/flowplayer-3.2.8.swf");
+flowplayer("a.flowplayer", "/templates/flowplayer/flowplayer-3.2.8.swf", {
+      clip:  {
+          autoPlay: false,
+          autoBuffering: true
+      }
+  });
 </script>
 EOF;
     return $str;
