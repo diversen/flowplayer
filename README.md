@@ -1,4 +1,5 @@
-Flowplayer for CosCMS. 
+### Deprecated
 
-It is placed in the htdocs/template dir. 
-No configuration options so far. 
+Loaded from CDN or add original repo to templates.
+
+
